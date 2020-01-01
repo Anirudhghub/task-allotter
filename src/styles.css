@@ -1,0 +1,122 @@
+body 
+{
+    margin: 0;
+}
+#root{
+    padding: 2vh;
+    background: url("istockphoto-925734296-612x612.jpg") no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    opacity: .9;
+   
+}
+.container
+{   
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    
+   
+    
+}
+.Rack
+{
+    width: 30vw;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black;
+}
+.add-book h2
+{
+text-align: center;
+}
+.add-book
+{
+    width: 20vw;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black;
+}
+.add-book form
+{
+    width: 18vw;
+    margin: auto;
+}
+.taskdetailsection
+{
+    display: flex;
+    flex-wrap: wrap;
+ 
+    
+    
+}
+input
+{
+    width: 60%;
+    margin: 1vh 0 ;
+}
+
+.book-display fieldset
+{
+width: 95%;
+display: inline-block;
+position: relative;
+}
+.book-display fieldset span
+{
+    position: absolute;
+    top: 0;
+    left: 85%;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+h1
+{
+    text-align: center;
+}
+.sectionwise
+{
+    width: 45vw;
+   display: inline-block;
+    overflow: auto;
+    height: 60vh;
+}
+
+.deletebutton
+{
+    position: absolute;
+    top: 40%;
+    left: 85%;
+    background: #ff1a1a;
+    padding: .5vh;
+    border-radius:1vh; 
+    color:white !important;
+}
+.completebutton
+{
+    position: absolute;
+    background: #33ff33;
+    padding: .5vh;
+    border-radius:1vh; 
+    /* color: green !important; */
+    top: 20%;
+    left: 85%
+}
+.sectionwise fieldset
+{
+    box-shadow: 10px 10px 10px black;;
+}
+display
+{
+    overflow: auto;
+}
+h1
+{
+    text-shadow: 10px 10px 10px black;
+}
+legend
+{
+    font-size: 30px;
+}
